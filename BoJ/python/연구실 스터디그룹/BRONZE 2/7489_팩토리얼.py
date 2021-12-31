@@ -1,4 +1,3 @@
-# https://www.acmicpc.net/problem/7489
 import sys
 
 def facto(n):
