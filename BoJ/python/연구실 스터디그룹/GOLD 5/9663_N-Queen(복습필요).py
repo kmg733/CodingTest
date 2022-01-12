@@ -39,3 +39,5 @@ visited = [False for _ in range(N)]
 
 dfs(0)
 print(count)
+
+# 참고: https://developnote.tistory.com/70
