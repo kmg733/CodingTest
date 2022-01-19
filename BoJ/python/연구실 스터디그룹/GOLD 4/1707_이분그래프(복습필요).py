@@ -14,11 +14,12 @@ def bfs(start):
         for i in graph[a]:
             # 한번도 방문하지 않았다면
             if visited[i] == 0:
-                # 이분그래프 확인을 위해 1과 -1로 구분
+                # 현재 a값의 반대 그룹으로
                 visited[i] = -visited[a]
                 que.append(i)
             # 한번이라도 방문 했다면
             else:
+                # 같은 그룹끼리 연결되어 있는지 확인
                 if visited[i] == visited[a]:
                     return False
     return True
