@@ -25,6 +25,7 @@ def binary(start, end):
         # 현재돈에서 오늘 할당된 금액 사용
         cMoney -= money
 
+    # m번보다 더 많이 인출하거나 인출 금액이 하루를 다 살기에 적은 경우
     if day > m or mid < max(dMoney):
         return binary(mid + 1, end)
     else:

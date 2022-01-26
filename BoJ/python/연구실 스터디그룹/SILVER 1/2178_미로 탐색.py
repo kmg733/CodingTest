@@ -21,7 +21,7 @@ def bfs(i, j):
             x2 = x + dxy[i][0]
             y2 = y + dxy[i][1]
         
-            if x2 < 0 or x2 >= n or y2 < 0 or y2 >= m:
+            if x2 < 0 or x2 >= n or y2 < 0 or y2 >= m or (x == 0 and y == 0):
                 continue
 
             if maze[x2][y2] == 0:
@@ -33,4 +33,4 @@ def bfs(i, j):
     
     return maze[n-1][m-1]
 
-print(maze)
+print(bfs(0, 0))
