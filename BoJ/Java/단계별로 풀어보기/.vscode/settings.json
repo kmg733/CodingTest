@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "level3(for문)",
+        "level2(if문)",
+        "level1(입출력과 사칙연산)"
+    ],
+    "java.dependency.syncWithFolderExplorer": true
+}
