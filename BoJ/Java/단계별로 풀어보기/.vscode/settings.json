@@ -1,6 +1,13 @@
 {
     "java.project.sourcePaths": [
-        "level6(함수)"
+        "level1(입출력과 사칙연산)",
+        "level2(if문)",
+        "level3(for문)",
+        "level4(while문)",
+        "level5(1차원배열)",
+        "level6(함수)",
+        "level7(문자열)"
     ],
-    "java.dependency.syncWithFolderExplorer": true
+    "java.dependency.syncWithFolderExplorer": true,
+    "java.dependency.packagePresentation": "flat"
 }
