@@ -12,4 +12,6 @@ for i in range(t):
     for i in range(2, n):
         maxL = max(maxL, abs(l[i] - l[i - 2]))
     
+    maxL = max(maxL, abs(l[0] - l[1]))
+
     print(maxL)
