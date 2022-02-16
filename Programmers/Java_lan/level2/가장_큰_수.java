@@ -6,8 +6,7 @@ public class 가장_큰_수 {
         System.out.println(solution(numbers));
     }
     public static String solution(int[] numbers) {
-        String answer = "";
-        
+
         String[] str = new String[numbers.length];        
         for(int i = 0; i < str.length; i++) {
             str[i] = String.valueOf(numbers[i]);
