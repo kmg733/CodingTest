@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class 조이스틱 {
     public static void main(String[] args) {
         System.out.println(solution("JEROEN"));
