@@ -12,5 +12,6 @@ def solution(s):
 #         return False
 #     return len(s) == 4 or len(s) == 6 
 
-# 참고 isalpha, isdigit, isalnum 사용법
+# 참고 isalpha, isdigit, isalnum
+# 사용법
 # https://appia.tistory.com/178
