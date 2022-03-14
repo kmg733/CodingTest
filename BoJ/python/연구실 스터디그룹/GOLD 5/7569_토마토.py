@@ -49,7 +49,12 @@ for z in range(h):
                 print(-1)
                 sys.exit()
             count = max(count, tomato[z][x][y])
-
+for i in tomato:
+    for j in i:
+        for k in j:
+            print(k, end = ' ')
+        print()
+    print()
 print(count - 1)
 
 # DFS/BFS
