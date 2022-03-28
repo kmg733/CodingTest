@@ -42,7 +42,9 @@ while True:
 
     if result == 0:
         break
+    # BFS의 결과값에 치즈갯수를 반환하고, 반환한 값이 0이 아니라면 치즈의 갯수를 저장
     cheese = result
+    # while문이 한번 끝날 때마다 1시간이 지남
     times += 1
 
 print(times)
