@@ -4,6 +4,7 @@ input = sys.stdin.readline
 sys.setrecursionlimit(10**6)
 
 def dfs(curNode, preNode):
+    # answer는 방문한 노드의 개수
     global answer
     # maxD는 리프 노드로부터 현재 노드까지의 거리
     maxD = 0

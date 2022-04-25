@@ -9,7 +9,7 @@ def backTrack(digit, num):
         d.append(num)
     else:
         # 다음에 붙일 숫자는, 앞의 숫자보다 작아야 하므로
-        # num % 10으로 앞 자리의 수를 구하고 for문 수행
+        # num % 10으로 앞 자리의 수를 구하고 for문 수행        
         for i in range(num % 10):
             backTrack(digit - 1, num * 10 + i)
 
