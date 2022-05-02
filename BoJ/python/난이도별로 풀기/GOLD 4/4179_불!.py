@@ -26,7 +26,7 @@ def bfs():
             ny = dy + y
             if 0 <= nx < r and 0 <= ny < c:
                 # 지훈이의 이동
-                if visited[nx][ny] == 0 and graph[nx][ny] == '.' and graph[x][y] != 'F' and graph[x][y] != '#':
+                if visited[nx][ny] == 0 and graph[nx][ny] == '.' and graph[x][y] != 'F':
                     # 지훈이가 이동한 경로는 불도 이동할 수 있어야 하므로 방문처리를 하지 않음
                     graph[nx][ny] = graph[x][y] + 1
                     que.append([nx, ny])
