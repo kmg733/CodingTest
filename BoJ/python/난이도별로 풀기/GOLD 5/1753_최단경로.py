@@ -25,6 +25,7 @@ def dijkstra():
     while heap:
         nowWeigh, nowNode = heapq.heappop(heap)
 
+        # 이미 처리한 적이 있는 노드라면 탐색하지 않음
         if costs[nowNode] < nowWeigh:
             continue
         
